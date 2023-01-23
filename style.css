@@ -1,0 +1,98 @@
+:root {
+
+    /* color variables  */
+    --white: #FFFFFF;
+    --black: #000000;
+    
+    
+    --purple: #041E39;
+    
+    
+  
+    /* color variables end */
+  
+    /* typo varibale end */
+    
+    --balsam: 'Balsamiq Sans', cursive;
+  
+    
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--balsam);
+  }
+  
+  
+  /* utilities */
+  
+  
+  
+  
+  
+  .heading-1 {
+    font-family: var(--balsam);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: var(--black);
+   
+  }
+  
+  .heading-2 {
+    font-family: var(--balsam);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: var(--black);
+  }
+  .heading-4 {
+    font-family: var(--balsam);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: var(--black);
+  }
+
+  /* hero starts from here */
+  
+  /* hero ends here */
+
+  /* discription starts from here */
+
+  hr.solid {
+    border-top: 3px solid var(--purple);
+  }
+
+  .btn {
+    display: block;
+    width: 7rem;
+    height: 2rem;
+    padding: 0.1rem 0rem;
+    font-family: var(--inter);
+    background-color: var(--purple);
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    border: none;
+  }
+  
+  .btn:hover {
+    color: var(--white);
+    background: var(--purple);
+  }
+
+
+  /* discription ends here */
